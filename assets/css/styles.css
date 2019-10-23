@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap');
+
+/* Global */
+body {
+    font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+hr {
+    color: #2196F3;
+    border-style: solid none none none;
+    border-width: 2px;
+    width: 20%;
+    margin: 50px auto;
+}
+
+section {
+    padding: 6.25rem 6.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414A4F;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    color: gray;
+}
+
+.gray-section {
+    background-color: #F7F7F7;
+}
+
+a {
+    color: #E4E4E4;
+    text-decoration: none;
+
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+@media all and (max-width: 1000px) {
+    section {
+        padding: 6.25rem 2.25rem;
+    }
+}
+
+/* Header */
+header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(../img/main.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header h1, header h3 {
+    color: white;
+}
+
+/* NavBar */
+.navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2.188rem 6.25rem 0px;
+    color: white;
+}
+
+#logo {
+    font-family: 'Quicksand', 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links a {
+    font-family: sans-serif;
+    margin: 0px 15px;
+}
+
+@media all and (max-width: 870px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+}
+
+/* Header Content */
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    margin: 0px 0px 15px;
+    flex-shrink: 2;
+}
+
+@media all and (max-width: 850px) {
+    .header-content {
+        padding: 0px 80px;
+    }
+}
+
+.header-content h3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0px 0px 40px;
+}
+
+.join-button {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    font-weight: 800;
+    padding: 11px 37px;
+}
+
+.join-button:hover {
+    opacity: 1;
+}
+
+/* Works */
+
+#works {
+}
+
+#work-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+}
+
+.photo {
+    height: 21.875rem;
+    padding: 1.25rem;
+    box-sizing: border-box; /* 使得 padding 不會改變物件本身寬度 (內縮)*/
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.sm-photo {
+    flex-basis: 40%;
+}
+
+.bg-photo {
+    flex-basis: 60%;
+}
+
+@media all and (max-width: 1000px) {
+    .sm-photo, .bg-photo {
+        flex-basis: 100%;
+    }
+
+}
+
+/* Features */
+#features {
+}
+
+#feature-introduce {
+    display: flex;
+    justify-content: space-between;
+}
+
+#feature-introduce div {
+    flex-basis: 33%;
+    padding: 50px;
+}
+
+.feature-icon {
+    font-size: 50px;
+}
+
+@media all and (max-width: 1000px) {
+    #feature-introduce {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 10%;
+    }
+}
+
+/* Reviews */
+
+#reviews {
+
+}
+
+.review-post {
+    margin: 80px 20% 0px;
+}
+
+.review-post h3 {
+    font-weight: lighter;
+}
+
+.review-post .author {
+    font-weight: lighter;
+}
+
+/* Call To Action */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20%;
+}
+
+.email-input {
+    font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    flex-grow: 1;
+    margin-right: 30px;
+    padding: 10px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #414A4F;
+    padding: 80px 0px;
+}
+
+footer p {
+    margin: 5px auto;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 32px;
+    margin: 0px 10px;
+}
+
+.licence {
+    margin-top: 20px;
+}
