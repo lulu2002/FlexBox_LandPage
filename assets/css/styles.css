@@ -5,7 +5,7 @@
 /* Global */
 body {
     font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
-    margin: 0px;
+    margin: 0;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ header h1, header h3 {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 2.188rem 6.25rem 0px;
+    padding: 2.188rem 6.25rem 0;
     color: white;
 }
 
@@ -90,15 +90,15 @@ header h1, header h3 {
 
 .links a {
     font-family: sans-serif;
-    margin: 0px 0.538rem;
+    margin: 0 0.538rem;
 }
 
 @media all and (max-width: 870px) {
     .navbar {
         flex-direction: column;
         align-items: center;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .links {
@@ -109,7 +109,7 @@ header h1, header h3 {
 
 @media all and (max-width: 380px) {
     .links a {
-        margin: 10px 0px 0px;
+        margin: 10px 0 0;
     }
 }
 
@@ -124,7 +124,7 @@ header h1, header h3 {
 
 .header-content h1 {
     font-size: 60px;
-    margin: 0px 0px 15px;
+    margin: 0 0 15px;
     flex-shrink: 2;
 }
 
@@ -134,7 +134,7 @@ header h1, header h3 {
 .header-content h3 {
     font-size: 28px;
     font-weight: normal;
-    margin: 0px 0px 40px;
+    margin: 0 0 40px;
 }
 
 .join-button {
@@ -149,7 +149,6 @@ header h1, header h3 {
     border-radius: 4px;
     text-transform: uppercase;
     background-color: #2196F3;
-    font-weight: 800;
     padding: 11px 37px;
 }
 
@@ -224,7 +223,7 @@ header h1, header h3 {
 }
 
 .review-post {
-    margin: 80px 20% 0px;
+    margin: 80px 20% 0;
 }
 
 .review-post h3 {
@@ -240,7 +239,7 @@ header h1, header h3 {
 .contact {
     display: flex;
     justify-content: center;
-    padding: 0px 20%;
+    padding: 0 20%;
 }
 
 .email-input {
@@ -260,7 +259,7 @@ header h1, header h3 {
     }
 
     .email-input {
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .contact .join-button {
@@ -272,7 +271,7 @@ header h1, header h3 {
 
 footer {
     background-color: #414A4F;
-    padding: 80px 0px;
+    padding: 80px 0;
 }
 
 footer p {
@@ -286,7 +285,7 @@ footer p {
 
 .social-icon {
     font-size: 32px;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .licence {
