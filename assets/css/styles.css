@@ -54,6 +54,12 @@ a:hover {
     }
 }
 
+@media all and (max-width: 400px){
+    section {
+        padding: 6.25rem 0.25rem;
+    }
+}
+
 /* Header */
 header {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(../img/main.jpg);
@@ -84,7 +90,7 @@ header h1, header h3 {
 
 .links a {
     font-family: sans-serif;
-    margin: 0px 15px;
+    margin: 0px 0.538rem;
 }
 
 @media all and (max-width: 870px) {
@@ -96,7 +102,14 @@ header h1, header h3 {
     }
 
     .links {
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+@media all and (max-width: 380px) {
+    .links a {
+        margin: 10px 0px 0px;
     }
 }
 
@@ -116,9 +129,6 @@ header h1, header h3 {
 }
 
 @media all and (max-width: 850px) {
-    .header-content {
-        padding: 0px 80px;
-    }
 }
 
 .header-content h3 {
@@ -180,7 +190,6 @@ header h1, header h3 {
     .sm-photo, .bg-photo {
         flex-basis: 100%;
     }
-
 }
 
 /* Features */
@@ -205,7 +214,6 @@ header h1, header h3 {
     #feature-introduce {
         flex-direction: column;
         justify-content: center;
-        padding: 0px 10%;
     }
 }
 
@@ -244,6 +252,20 @@ header h1, header h3 {
 
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+@media all and (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .email-input {
+        margin-right: 0px;
+    }
+
+    .contact .join-button {
+        margin-top: 10px;
+    }
 }
 
 /* Footer */
